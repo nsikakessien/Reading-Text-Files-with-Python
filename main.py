@@ -10,7 +10,7 @@ def read_file_content(filename):
 
         f.close()
     
-    return (content)
+    return content
 
 def count_words():
     text = read_file_content("./story.txt")
